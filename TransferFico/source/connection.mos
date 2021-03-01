@@ -1,0 +1,51 @@
+model "connection"
+  uses "mmodbc"
+
+  declarations
+  ! Use Excel spreadsheet `data.xls'
+  !  CNCT = 'DSN=Excel Files;DBQ=C:/xpress/examples/mosel/WhitePapers/MoselData/data.xls'
+  !  CNCT = 'data.xls'
+  !  CNCTIO = "data.xls"
+
+  ! Use Access database `data.mdb'
+  !  CNCT = 'DSN=MS Access Database;DBQ=C:/xpress/examples/mosel/WhitePapers/MoselData/data.mdb'
+  !  CNCT = 'data.mdb'
+  !  CNCTIO = "debug;data.mdb"
+  ! Use mysql database `data' (not provided)
+
+    CNCT = 'Driver={MySQL ODBC 8.0 ANSI Driver};DSN=mysql;DB=transportfico;Server=primexaviers.com;User=ficotransportpx;Password=ficotransportpx'
+    CNCTIO = "debug;Driver={MySQL ODBC 8.0 ANSI Driver};DSN=mysql;DB=transportfico;Server=primexaviers.com;User=root;"
+
+  ! Use SQLite database `data.sqlite' via ODBC
+  !  CNCT = 'DSN=sqlite;DATABASE=data.sqlite'
+  !  CNCTIO = "debug;DSN=sqlite;DATABASE=data.sqlite"
+
+  ! Use SQLite database `data.sqlite' directly
+  !  CNCT = 'data.sqlite'
+  !  CNCTIO = "debug;data.sqlite"
+  end-declarations
+
+
+ ! First method: use an initializations block with the odbc driver
+ ! ATTENTION: results from previous runs must be removed previously;
+ ! otherwise the new results will either be appended to the existing ones
+ ! or, if one of the fields has been defined as a key field in a database,
+ ! the insertion will fail.
+
+  ! initializations to "mmodbc.odbc:"+CNCTIO
+  !  COST as "users(id,name)"
+  ! end-initializations
+
+  declarations
+   name: set of string
+   id: set of integer
+   email: dynamic array(id,name) of string
+  end-declarations
+
+  ! Second method: use SQL statements
+  SQLconnect(CNCT)
+  SQLexecute("select id,name,email from users", email)
+  ! SQLexecute("insert into transportfico (Index_i,Index_j,Value) values (?,?,?)", A)
+  SQLdisconnect
+
+end-model

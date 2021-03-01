@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    File Type: Model companion file. Configures an Xpress Insight application.
+    Purpose: Defines the custom views used by the application.
+    (c) 2020 Fair Isaac Corporation.
+-->
+<model-companion xmlns="http://www.fico.com/xpress/optimization-modeler/model-companion" version="3.1">
+
+    <client>
+        <view-group title="Main">
+
+            <html-view title="Hello World Example" default="true" path="index.html" />
+
+            <html-view title="Modal Dialog Example" path="modal-dialog.html" />
+
+            <vdl-view title="result" path="result.vdl" requires-scenarios-loaded="false" />
+        </view-group>
+    </client>
+
+</model-companion>

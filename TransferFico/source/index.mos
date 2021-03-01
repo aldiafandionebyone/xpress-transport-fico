@@ -1,0 +1,76 @@
+(!
+    Xpress Insight simple JS API example
+!)
+model "index"
+  uses "mminsight"
+  uses "mmodbc"
+
+  parameters
+    CNCT = 'Driver={MySQL ODBC 8.0 ANSI Driver};DSN=mysql;DB=transportfico;Server=primexaviers.com;User=ficotransportpx;Password=ficotransportpx'
+    CNCTIO = "debug;Driver={MySQL ODBC 8.0 ANSI Driver};DSN=mysql;DB=transportfico;Server=primexaviers.com;User=root;"
+    LENGTH = 500
+  end-parameters
+
+  public declarations
+    name: set of string
+    id: set of integer
+    email: dynamic array(id,name) of string
+   
+    ! Sets
+    MonthsOfYear: set of string    ! Set of months
+    INDICES = 1..LENGTH            ! A range set
+
+    ! Scalars
+    MyScalar: string               ! A string scalar
+    MyBool: boolean                ! A boolean value
+    Month: string                  ! Another string scalar
+
+    ! Array of numbers
+    RealArray: array(INDICES) of real
+    IntArray: array(INDICES) of integer
+  end-declarations
+
+  !@doc.descr Handler for the standard LOAD execution mode
+  !@doc.descr Load input data and initialize all input entities.
+  !@insight.execmodes.LOAD
+  public procedure datainput
+    MyScalar := "Hello, world!"
+    MyBool := TRUE
+    Month := "March"
+    MonthsOfYear := {"January", "February", "March",
+      "April", "May", "June", "July", "August",
+      "September", "October", "November", "December"}
+
+    forall(i in INDICES) do
+      RealArray(i) := floor(random * 10000) / 100;
+      IntArray(i) := floor(random * 150)
+    end-do
+  end-procedure
+
+  !@doc.descr Handler for the standard RUN execution mode
+  !@doc.descr Calculate result data and initialize all result entities.
+  !@insight.execmodes.RUN
+  public procedure calculateresults
+    ! initialize from scenario data when run within Insight
+    insightpopulate
+    ! do nothing else
+  end-procedure
+
+  !@doc.descr Handler for when the model is executed outside of Insight
+  !@insight.execmodes.NONE
+  public procedure standalone
+    datainput
+    calculateresults
+  end-procedure
+
+  insightdispatch
+
+  ! Second method: use SQL statements
+  SQLconnect(CNCT)
+  SQLexecute("select id,name,email from users", email)
+  ! SQLexecute("insert into transportfico (Index_i,Index_j,Value) values (?,?,?)", A)
+  SQLdisconnect
+  writeln(email)
+
+  writeln("Model run finished.")
+end-model

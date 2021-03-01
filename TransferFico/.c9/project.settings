@@ -1,0 +1,84 @@
+{
+    "ace": {
+        "@guessTabSize": true,
+        "@newLineMode": "unix",
+        "@tabSize": "4",
+        "@useSoftTabs": true
+    },
+    "build": {
+        "@path": "/.c9/builders",
+        "@saveall": "true"
+    },
+    "find.nak": {
+        "@searchLimit": 100
+    },
+    "general": {
+        "@stripws": true
+    },
+    "language": {
+        "@eslintrc": true,
+        "@semi": true,
+        "@undeclaredVars": true,
+        "@unusedFunctionArgs": false,
+        "@warnLevel": "info",
+        "tern_defs": {
+            "json()": {
+                "browser": {
+                    "enabled": true
+                },
+                "ecma5": {
+                    "enabled": true
+                },
+                "jQuery": {
+                    "enabled": true
+                }
+            }
+        }
+    },
+    "om": {
+        "@last-sync-time": 1614595087364,
+        "last-published-to": {
+            "json()": {
+                "componentId": "af0bb093",
+                "componentUrl": "http://localhost:8860",
+                "projectId": "1465f5e8-90b6-47e2-a603-c6755207fb47",
+                "timestamp": "2021-03-01T10:13:38.364Z",
+                "username": "admin"
+            }
+        },
+        "main-model-path": {
+            "json()": "/source/index.mos"
+        },
+        "workbook-statuses": {
+            "json()": {}
+        }
+    },
+    "run": {
+        "@path": "/.c9/runners",
+        "configs": {
+            "json()": {
+                "Publish Insight archive": {
+                    "args": [
+                        "--result-file",
+                        "C:/Users/user/Desktop/Aldi Afandi/FicoProject/TransferFico/.ompublish46900",
+                        "http://localhost:8860",
+                        "--publish-since",
+                        "2021-03-01T10:09:14.589Z",
+                        "--omuser",
+                        "admin",
+                        "1465f5e8-90b6-47e2-a603-c6755207fb47"
+                    ],
+                    "builder": "Publish Insight archive",
+                    "command": "",
+                    "name": "Publish Insight archive",
+                    "path": "source/index.mos",
+                    "runner": "Publish Insight archive",
+                    "toolbar": true
+                }
+            }
+        }
+    },
+    "vdl": {
+        "@openVDLViewsIn": "vdl.visual.editor"
+    }
+}

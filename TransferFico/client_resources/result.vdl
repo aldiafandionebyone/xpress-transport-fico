@@ -1,0 +1,13 @@
+<vdl version="4.7">
+    <vdl-page>
+        <vdl-section heading="result">
+            <vdl-row>
+                <vdl-column size="12">
+                    <vdl-table>
+                        <vdl-table-column entity="email"></vdl-table-column>
+                    </vdl-table>
+                </vdl-column>
+            </vdl-row>
+        </vdl-section>
+    </vdl-page>
+</vdl>

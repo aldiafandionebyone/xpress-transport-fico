@@ -1,0 +1,496 @@
+{
+    "console": {
+        "@expanded": true,
+        "@height": "300",
+        "@maximized": "false",
+        "json()": {
+            "meta": {
+                "accessList": [
+                    "tab2",
+                    "tab4",
+                    "tab3",
+                    "tab17",
+                    "tab12"
+                ]
+            },
+            "name": "pane1",
+            "nodes": [
+                {
+                    "type": "tab",
+                    "name": "tab2",
+                    "path": "",
+                    "className": [
+                        "tab2"
+                    ],
+                    "document": {
+                        "filter": true,
+                        "title": "source/quick_start.mos - Stopped",
+                        "tooltip": "source/quick_start.mos - Stopped",
+                        "output": {
+                            "id": "output981800",
+                            "width": 1448,
+                            "height": 268,
+                            "scrollTop": -1,
+                            "config": {
+                                "runner": "Mosel",
+                                "command": "source/quick_start.mos",
+                                "debug": false,
+                                "cwd": "/model_resources",
+                                "toolbar": true,
+                                "name": ""
+                            }
+                        },
+                        "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+                        "meta": {
+                            "timestamp": 1614137378843
+                        },
+                        "changed": false
+                    },
+                    "editorType": "output",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab12",
+                    "path": "",
+                    "className": [
+                        "tab12"
+                    ],
+                    "document": {
+                        "filter": true,
+                        "title": "Publish Insight archive - Stopped",
+                        "tooltip": "Publish Insight archive - Stopped",
+                        "output": {
+                            "id": "output725413",
+                            "width": 1628,
+                            "height": 268,
+                            "scrollTop": -1,
+                            "config": {
+                                "name": "Publish Insight archive",
+                                "builder": "Publish Insight archive",
+                                "path": "source/quick_start.mos",
+                                "args": [
+                                    "--result-file",
+                                    "C:/Users/user/Desktop/Aldi Afandi/FicoProject/TransferFico/.ompublish52902",
+                                    "http://localhost:8860",
+                                    "--publish-since",
+                                    "2021-02-24T04:20:34.574Z",
+                                    "--omuser",
+                                    "admin",
+                                    "1465f5e8-90b6-47e2-a603-c6755207fb47"
+                                ],
+                                "toolbar": true,
+                                "runner": "Publish Insight archive",
+                                "command": ""
+                            }
+                        },
+                        "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+                        "meta": {
+                            "timestamp": 1614138622718
+                        },
+                        "changed": false
+                    },
+                    "editorType": "output",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab17",
+                    "path": "",
+                    "className": [
+                        "tab17"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1614140426217
+                        },
+                        "filter": true,
+                        "title": "source/connection.mos - Stopped",
+                        "tooltip": "source/connection.mos - Stopped",
+                        "output": {
+                            "id": "output297235",
+                            "width": 1448,
+                            "height": 268,
+                            "config": {
+                                "runner": "Mosel",
+                                "command": "source/connection.mos",
+                                "debug": false,
+                                "cwd": "/model_resources",
+                                "toolbar": true,
+                                "name": ""
+                            }
+                        }
+                    },
+                    "editorType": "output",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab4",
+                    "path": "",
+                    "className": [
+                        "tab4"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1614148187698
+                        },
+                        "filter": true,
+                        "title": "Publish Insight archive - Stopped",
+                        "tooltip": "Publish Insight archive - Stopped",
+                        "output": {
+                            "id": "output952531",
+                            "width": 1448,
+                            "height": 268,
+                            "config": {
+                                "name": "Publish Insight archive",
+                                "builder": "Publish Insight archive",
+                                "path": "source/index.mos",
+                                "args": [
+                                    "--result-file",
+                                    "C:/Users/user/Desktop/Aldi Afandi/FicoProject/TransferFico/.ompublish46900",
+                                    "http://localhost:8860",
+                                    "--publish-since",
+                                    "2021-03-01T10:09:14.589Z",
+                                    "--omuser",
+                                    "admin",
+                                    "1465f5e8-90b6-47e2-a603-c6755207fb47"
+                                ],
+                                "toolbar": true,
+                                "runner": "Publish Insight archive",
+                                "command": ""
+                            }
+                        }
+                    },
+                    "editorType": "output",
+                    "active": true
+                },
+                {
+                    "type": "tab",
+                    "name": "tab3",
+                    "path": "",
+                    "className": [
+                        "tab3"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1614588724729
+                        },
+                        "filter": true,
+                        "title": "source/index.mos - Stopped",
+                        "tooltip": "source/index.mos - Stopped",
+                        "output": {
+                            "id": "output910913",
+                            "width": 1448,
+                            "height": 268,
+                            "config": {
+                                "runner": "Mosel",
+                                "command": "source/index.mos",
+                                "debug": false,
+                                "cwd": "/model_resources",
+                                "toolbar": true,
+                                "name": ""
+                            }
+                        }
+                    },
+                    "editorType": "output",
+                    "active": false
+                }
+            ],
+            "skin": "editor_tab",
+            "skinset": "default",
+            "type": "pane"
+        }
+    },
+    "ext": {
+        "counters": {
+            "@ace": 1,
+            "@acestatus": 1,
+            "@base-step-wizard": 2,
+            "@divider": 4,
+            "@document": 12,
+            "@editorswitch": 2,
+            "@fico.vdl.attributes-panel": 1,
+            "@fico.vdl.palette-panel": 1,
+            "@form": 4,
+            "@menu": 3,
+            "@menuitem": 8,
+            "@pane": 2,
+            "@session": 13,
+            "@tab": 10,
+            "@undoManager": 12,
+            "@vdl-editor.ui": 1,
+            "@welcome": 1
+        }
+    },
+    "findinfiles": {
+        "@console": "true",
+        "@matchcase": "false",
+        "@regex": "false",
+        "@scope": "selection",
+        "@wholeword": "false"
+    },
+    "local": {
+        "window": {
+            "@fullscreen": false,
+            "@maximized": true,
+            "@minimized": false,
+            "@position": "171:0",
+            "@size": "1200:920"
+        }
+    },
+    "menus": {
+        "@minimized": "false"
+    },
+    "nak": {
+        "@installed": true
+    },
+    "od": {
+        "@last-run-config": "path:source/index.mos",
+        "recent-scenarios": {
+            "json()": []
+        }
+    },
+    "om": {
+        "expanded": {
+            "json()": [
+                "1465f5e8-90b6-47e2-a603-c6755207fb47"
+            ]
+        }
+    },
+    "panecycle": {
+        "json()": [
+            "tab7",
+            "tab4"
+        ]
+    },
+    "panels": {
+        "@active-left": "tree",
+        "@active-right": "none",
+        "commands.panel": {
+            "@enabled": "false",
+            "@name": "commands.panel"
+        },
+        "debugger": {
+            "@enabled": "true",
+            "@name": "debugger"
+        },
+        "fico.ide.language.mosel.modules-panel": {
+            "@enabled": "true",
+            "@name": "fico.ide.language.mosel.modules-panel"
+        },
+        "fico.om.sidebar": {
+            "@enabled": "true",
+            "@name": "fico.om.sidebar"
+        },
+        "fico.vdl.attributes-panel0": {
+            "@enabled": "false",
+            "@name": "fico.vdl.attributes-panel0"
+        },
+        "fico.vdl.palette-panel0": {
+            "@enabled": "false",
+            "@name": "fico.vdl.palette-panel0"
+        },
+        "navigate": {
+            "@enabled": "false",
+            "@name": "navigate"
+        },
+        "outline": {
+            "@enabled": "true",
+            "@name": "outline"
+        },
+        "tree": {
+            "@enabled": "true",
+            "@name": "tree"
+        }
+    },
+    "projecttree": {
+        "expanded": {
+            "json()": [
+                "/",
+                "/out",
+                "/source",
+                "/model_resources",
+                "/client_resources",
+                "/client_resources/js"
+            ]
+        }
+    },
+    "recentfiles": {
+        "json()": []
+    },
+    "tabs": {
+        "json()": {
+            "focus": "/client_resources/index.html",
+            "meta": {
+                "accessList": [
+                    "tab7",
+                    "tab8",
+                    "tab6",
+                    "tab5",
+                    "tab0",
+                    "tab1",
+                    "tab9"
+                ]
+            },
+            "name": "pane0",
+            "nodes": [
+                {
+                    "type": "tab",
+                    "name": "tab0",
+                    "path": "/source/index.mos",
+                    "className": [
+                        "tab0"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1614593422539
+                        },
+                        "filter": true,
+                        "title": "index.mos",
+                        "tooltip": "/source/index.mos",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab1",
+                    "path": "/source/connection.mos",
+                    "className": [
+                        "tab1"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1614588639885
+                        },
+                        "filter": true,
+                        "title": "connection.mos",
+                        "tooltip": "/source/connection.mos",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab5",
+                    "path": "/client_resources/modal-dialog.html",
+                    "className": [
+                        "tab5"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1614138594981
+                        },
+                        "filter": true,
+                        "title": "modal-dialog.html",
+                        "tooltip": "/client_resources/modal-dialog.html",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab6",
+                    "path": "/client_resources/result.vdl",
+                    "className": [
+                        "tab6"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1614158071259
+                        },
+                        "filter": true,
+                        "title": "result.vdl",
+                        "tooltip": "/client_resources/result.vdl",
+                        "vdl.visual.editor": {}
+                    },
+                    "editorType": "vdl.visual.editor",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab7",
+                    "path": "/client_resources/index.html",
+                    "className": [
+                        "tab7",
+                        "focus"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1614593612925
+                        },
+                        "filter": true,
+                        "title": "index.html",
+                        "tooltip": "/client_resources/index.html",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": true
+                },
+                {
+                    "type": "tab",
+                    "name": "tab8",
+                    "path": "/client_resources/js/index.js",
+                    "className": [
+                        "tab8"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1614592155691
+                        },
+                        "filter": true,
+                        "title": "index.js",
+                        "tooltip": "/client_resources/js/index.js",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab9",
+                    "path": "/client_resources/js/modal-dialog.js",
+                    "className": [
+                        "tab9"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1614138563707
+                        },
+                        "filter": true,
+                        "title": "modal-dialog.js",
+                        "tooltip": "/client_resources/js/modal-dialog.js",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": false
+                }
+            ],
+            "skin": "editor_tab",
+            "skinset": "default",
+            "type": "pane"
+        }
+    },
+    "tree_selection": {
+        "json()": [
+            "/client_resources/index.html"
+        ]
+    },
+    "welcome": {
+        "@first": true
+    }
+}
