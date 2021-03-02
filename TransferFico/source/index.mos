@@ -1,7 +1,9 @@
 (!
     Xpress Insight simple JS API example
 !)
-model "index"
+model "Transport Fico"
+  version 0.0.1
+  options noimplicit
   uses "mminsight"
   uses "mmodbc"
 
@@ -15,7 +17,7 @@ model "index"
     name: set of string
     id: set of integer
     email: dynamic array(id,name) of string
-   
+
     ! Sets
     MonthsOfYear: set of string    ! Set of months
     INDICES = 1..LENGTH            ! A range set

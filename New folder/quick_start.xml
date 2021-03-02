@@ -8,12 +8,12 @@
 
     <client>
         <view-group title="Main">
+            <vdl-view title="Introduction" path="introduction.vdl" requires-scenarios-loaded="false"
+                      empty-selection-default="true"/>
 
-            <html-view title="index" default="true" path="index.html" />
+            <vdl-view title="Input" path="input.vdl" default="true"/>
 
-            <html-view title="popUp" path="modal-dialog.html" />
-
-            <vdl-view title="result" path="users.vdl" requires-scenarios-loaded="false" />
+            <vdl-view title="Results" path="results.vdl"/>
         </view-group>
     </client>
 

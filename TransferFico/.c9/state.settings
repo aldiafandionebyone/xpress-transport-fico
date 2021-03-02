@@ -9,8 +9,8 @@
                     "tab2",
                     "tab4",
                     "tab3",
-                    "tab17",
-                    "tab12"
+                    "tab12",
+                    "tab17"
                 ]
             },
             "name": "pane1",
@@ -101,10 +101,6 @@
                         "tab17"
                     ],
                     "document": {
-                        "changed": false,
-                        "meta": {
-                            "timestamp": 1614140426217
-                        },
                         "filter": true,
                         "title": "source/connection.mos - Stopped",
                         "tooltip": "source/connection.mos - Stopped",
@@ -112,6 +108,7 @@
                             "id": "output297235",
                             "width": 1448,
                             "height": 268,
+                            "scrollTop": -1,
                             "config": {
                                 "runner": "Mosel",
                                 "command": "source/connection.mos",
@@ -120,7 +117,12 @@
                                 "toolbar": true,
                                 "name": ""
                             }
-                        }
+                        },
+                        "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+                        "meta": {
+                            "timestamp": 1614140426217
+                        },
+                        "changed": false
                     },
                     "editorType": "output",
                     "active": false
@@ -142,7 +144,7 @@
                         "tooltip": "Publish Insight archive - Stopped",
                         "output": {
                             "id": "output952531",
-                            "width": 1448,
+                            "width": 1198,
                             "height": 268,
                             "config": {
                                 "name": "Publish Insight archive",
@@ -150,10 +152,10 @@
                                 "path": "source/index.mos",
                                 "args": [
                                     "--result-file",
-                                    "C:/Users/user/Desktop/Aldi Afandi/FicoProject/TransferFico/.ompublish46900",
+                                    "C:/Users/user/Desktop/Aldi Afandi/xpress-transport-fico/TransferFico/.ompublish63602",
                                     "http://localhost:8860",
                                     "--publish-since",
-                                    "2021-03-01T10:09:14.589Z",
+                                    "2021-03-02T09:05:14.267Z",
                                     "--omuser",
                                     "admin",
                                     "1465f5e8-90b6-47e2-a603-c6755207fb47"
@@ -184,7 +186,7 @@
                         "tooltip": "source/index.mos - Stopped",
                         "output": {
                             "id": "output910913",
-                            "width": 1448,
+                            "width": 1198,
                             "height": 268,
                             "config": {
                                 "runner": "Mosel",
@@ -210,18 +212,18 @@
             "@ace": 1,
             "@acestatus": 1,
             "@base-step-wizard": 2,
-            "@divider": 4,
-            "@document": 12,
+            "@divider": 5,
+            "@document": 13,
             "@editorswitch": 2,
             "@fico.vdl.attributes-panel": 1,
             "@fico.vdl.palette-panel": 1,
             "@form": 4,
-            "@menu": 3,
-            "@menuitem": 8,
+            "@menu": 6,
+            "@menuitem": 15,
             "@pane": 2,
-            "@session": 13,
-            "@tab": 10,
-            "@undoManager": 12,
+            "@session": 14,
+            "@tab": 11,
+            "@undoManager": 13,
             "@vdl-editor.ui": 1,
             "@welcome": 1
         }
@@ -238,12 +240,12 @@
             "@fullscreen": false,
             "@maximized": true,
             "@minimized": false,
-            "@position": "171:0",
-            "@size": "1200:920"
+            "@position": "464:34",
+            "@size": "1184:885"
         }
     },
     "menus": {
-        "@minimized": "false"
+        "@minimized": false
     },
     "nak": {
         "@installed": true
@@ -263,13 +265,14 @@
     },
     "panecycle": {
         "json()": [
-            "tab7",
-            "tab4"
+            "tab0",
+            "tab4",
+            "tab10"
         ]
     },
     "panels": {
         "@active-left": "tree",
-        "@active-right": "none",
+        "@active-right": "fico.om.sidebar",
         "commands.panel": {
             "@enabled": "false",
             "@name": "commands.panel"
@@ -324,15 +327,16 @@
     },
     "tabs": {
         "json()": {
-            "focus": "/client_resources/index.html",
+            "focus": "/source/index.mos",
             "meta": {
                 "accessList": [
+                    "tab0",
+                    "tab10",
+                    "tab6",
+                    "tab1",
+                    "tab5",
                     "tab7",
                     "tab8",
-                    "tab6",
-                    "tab5",
-                    "tab0",
-                    "tab1",
                     "tab9"
                 ]
             },
@@ -343,12 +347,13 @@
                     "name": "tab0",
                     "path": "/source/index.mos",
                     "className": [
-                        "tab0"
+                        "tab0",
+                        "focus"
                     ],
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1614593422539
+                            "timestamp": 1614676147837
                         },
                         "filter": true,
                         "title": "index.mos",
@@ -356,7 +361,7 @@
                         "ace": {}
                     },
                     "editorType": "ace",
-                    "active": false
+                    "active": true
                 },
                 {
                     "type": "tab",
@@ -386,14 +391,36 @@
                         "tab5"
                     ],
                     "document": {
-                        "changed": false,
-                        "meta": {
-                            "timestamp": 1614138594981
-                        },
                         "filter": true,
                         "title": "modal-dialog.html",
                         "tooltip": "/client_resources/modal-dialog.html",
-                        "ace": {}
+                        "ace": {
+                            "folds": [],
+                            "scrolltop": 0,
+                            "scrollleft": 0,
+                            "selection": {
+                                "start": {
+                                    "row": 9,
+                                    "column": 0
+                                },
+                                "end": {
+                                    "row": 9,
+                                    "column": 0
+                                },
+                                "isBackwards": false
+                            },
+                            "options": {
+                                "guessTabSize": true,
+                                "useWrapMode": false,
+                                "wrapToView": true
+                            },
+                            "firstLineState": 0
+                        },
+                        "hash": "1a08b0526dad3b7bd65316d5d0fcd7c3a995c158",
+                        "meta": {
+                            "timestamp": 1614138594981
+                        },
+                        "changed": false
                     },
                     "editorType": "ace",
                     "active": false
@@ -401,7 +428,7 @@
                 {
                     "type": "tab",
                     "name": "tab6",
-                    "path": "/client_resources/result.vdl",
+                    "path": "/client_resources/users.vdl",
                     "className": [
                         "tab6"
                     ],
@@ -411,8 +438,8 @@
                             "timestamp": 1614158071259
                         },
                         "filter": true,
-                        "title": "result.vdl",
-                        "tooltip": "/client_resources/result.vdl",
+                        "title": "users.vdl",
+                        "tooltip": "/client_resources/users.vdl",
                         "vdl.visual.editor": {}
                     },
                     "editorType": "vdl.visual.editor",
@@ -423,13 +450,12 @@
                     "name": "tab7",
                     "path": "/client_resources/index.html",
                     "className": [
-                        "tab7",
-                        "focus"
+                        "tab7"
                     ],
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1614593612925
+                            "timestamp": 1614654183697
                         },
                         "filter": true,
                         "title": "index.html",
@@ -437,7 +463,7 @@
                         "ace": {}
                     },
                     "editorType": "ace",
-                    "active": true
+                    "active": false
                 },
                 {
                     "type": "tab",
@@ -447,14 +473,39 @@
                         "tab8"
                     ],
                     "document": {
-                        "changed": false,
-                        "meta": {
-                            "timestamp": 1614592155691
-                        },
                         "filter": true,
                         "title": "index.js",
                         "tooltip": "/client_resources/js/index.js",
-                        "ace": {}
+                        "ace": {
+                            "folds": [],
+                            "scrolltop": 0,
+                            "scrollleft": 0,
+                            "selection": {
+                                "start": {
+                                    "row": 1,
+                                    "column": 33
+                                },
+                                "end": {
+                                    "row": 1,
+                                    "column": 33
+                                },
+                                "isBackwards": false
+                            },
+                            "options": {
+                                "guessTabSize": true,
+                                "useWrapMode": false,
+                                "wrapToView": true
+                            },
+                            "firstLineState": {
+                                "row": 16,
+                                "mode": "ace/mode/javascript"
+                            }
+                        },
+                        "hash": "7838be1fd73bb24c788362a865b89f98dc7aa8a8",
+                        "meta": {
+                            "timestamp": 1614592155685
+                        },
+                        "changed": false
                     },
                     "editorType": "ace",
                     "active": false
@@ -467,13 +518,55 @@
                         "tab9"
                     ],
                     "document": {
-                        "changed": false,
-                        "meta": {
-                            "timestamp": 1614138563707
-                        },
                         "filter": true,
                         "title": "modal-dialog.js",
                         "tooltip": "/client_resources/js/modal-dialog.js",
+                        "ace": {
+                            "folds": [],
+                            "scrolltop": 0,
+                            "scrollleft": 0,
+                            "selection": {
+                                "start": {
+                                    "row": 8,
+                                    "column": 22
+                                },
+                                "end": {
+                                    "row": 8,
+                                    "column": 22
+                                },
+                                "isBackwards": false
+                            },
+                            "options": {
+                                "guessTabSize": true,
+                                "useWrapMode": false,
+                                "wrapToView": true
+                            },
+                            "firstLineState": 0
+                        },
+                        "hash": "36e85921f59b5a93dab9c34df9c2ff05a069a35e",
+                        "meta": {
+                            "timestamp": 1614138563707
+                        },
+                        "changed": false
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab10",
+                    "path": "/transport_fico.xml",
+                    "className": [
+                        "tab10"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1614675910000
+                        },
+                        "filter": true,
+                        "title": "transport_fico.xml",
+                        "tooltip": "/transport_fico.xml",
                         "ace": {}
                     },
                     "editorType": "ace",
@@ -487,7 +580,7 @@
     },
     "tree_selection": {
         "json()": [
-            "/client_resources/index.html"
+            "/"
         ]
     },
     "welcome": {

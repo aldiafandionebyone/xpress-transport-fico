@@ -36,13 +36,13 @@
         }
     },
     "om": {
-        "@last-sync-time": 1614595087364,
+        "@last-sync-time": 1614677488755,
         "last-published-to": {
             "json()": {
                 "componentId": "af0bb093",
                 "componentUrl": "http://localhost:8860",
                 "projectId": "1465f5e8-90b6-47e2-a603-c6755207fb47",
-                "timestamp": "2021-03-01T10:13:38.364Z",
+                "timestamp": "2021-03-02T09:09:03.038Z",
                 "username": "admin"
             }
         },
@@ -60,10 +60,10 @@
                 "Publish Insight archive": {
                     "args": [
                         "--result-file",
-                        "C:/Users/user/Desktop/Aldi Afandi/FicoProject/TransferFico/.ompublish46900",
+                        "C:/Users/user/Desktop/Aldi Afandi/xpress-transport-fico/TransferFico/.ompublish63602",
                         "http://localhost:8860",
                         "--publish-since",
-                        "2021-03-01T10:09:14.589Z",
+                        "2021-03-02T09:05:14.267Z",
                         "--omuser",
                         "admin",
                         "1465f5e8-90b6-47e2-a603-c6755207fb47"
